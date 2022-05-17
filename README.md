@@ -1,3 +1,3 @@
 # loopside
 loopside website
-https://serene-halva-0dfc6f.netlify.app
+https://golden-shortbread-2bf1fa.netlify.app
