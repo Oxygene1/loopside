@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Red+Hat+Display:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Josefin+Sans:wght@100;300&family=Red+Hat+Display:wght@500;700&display=swap');
+
+/* for mobile */
+@media only screen and  (max-width: 600px)
+{
+    body {
+      
+        font-size: small;
+        /* max-width: 390px; */
+        background-color: green
+    }
+    
+    header {
+        background-color: aquamarine;
+        /* background-image: url('images/mob-hero.jpg'); */
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 100% !important;
+    } 
+    
+    li {
+        display: none;
+    }
+
+     .nav-main {
+        max-width: 100% !important;
+    }
+
+    
+
+    .loopside {
+        padding: 20px;
+        height: 18px;
+        width: 50%;
+    }
+
+   
+
+    .experience {
+        color: hsl(0, 0%, 100%);
+        text-align: justify;
+        padding: 10%;
+        border-style: groove;
+        border-color: hsl(0, 0%, 100%);
+        width: 55%;
+        margin-left: 10%;
+        margin-top: 25%;
+        font-weight: 20;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    .list1 {
+        visibility: hidden !important;
+    }
+
+    .interactive {
+    padding-left: -20%; 
+    max-width: 55%;
+    max-height: 40%;
+    }
+
+    .interactive-mob {
+        padding: 10px;
+    } 
+
+    .interactive-text {
+        color: hsl(0, 0%, 0%);
+        background-color: #fff;
+        border-style: hidden;
+      
+        text-align: justify;
+       
+       
+        max-height: 5%;
+     
+
+    }
+
+    .interactive-header {
+        text-align: start;
+    }
+
+    .sec-nav {
+        padding-top: 10mm;
+        padding-left: 5px;
+        padding-right: 30%;
+        max-width: 70%;
+        font-family: 'Josefin Sans', sans-serif;
+        min-height: 350px;
+
+    }
+
+    .box2 {
+        padding-left: 5px;
+    }
+
+    .box-img {
+        display: none;
+    }
+
+    .image-box {
+        display: block;
+        margin-left: 40%;
+        margin-top: 5%;
+
+    }
+
+    .seeall {
+        display: none;
+    }
+
+    .see2 {
+        display: none;
+    }
+
+    .navfooter {
+        background-color: hsl(0, 0%, 0%);
+    }
+
+    .loopside2 {
+        padding: 10px;
+        height: 10%;
+        padding-left: 55%;
+        padding-top: 25px;
+    }
+
+    .list2 {
+        text-decoration: none;
+        padding-top: 2px;
+        padding-bottom: 20px;
+        list-style-type: none;
+        display: grid;
+        padding-left: 70%;
+        text-align: center;
+    }
+
+    .deep {
+        background-image: url('images/mob-deep-earth.jpg');
+        background-repeat: no-repeat;
+        color: #fff;
+        width: 45mm;
+        height: 15mm;
+        max-width: 36%;
+        font-size: medium;
+        padding-right: 50%;
+        padding-right: 10px;
+    }
+
+    .deep2 {
+        background-image: url('images/mob-night-arcade.jpg');
+        background-repeat: no-repeat;
+        color: #fff;
+        width: 45mm;
+        height: 15mm;
+        max-width: 36%;
+        font-size: medium;
+        padding-right: 50%;
+        padding-right: 10px;
+
+    }
+
+    .deep3 {
+        background-image: url('images/mob-soccer-team.jpg');
+        background-repeat: no-repeat;
+        color: #fff;
+        width: 45mm;
+        height: 15mm;
+        max-width: 36%;
+        font-size: medium;
+        padding-right: 50%;
+        padding-right: 10px;
+
+    }
+
+    .deep4 {
+        background-image: url('images/mob-grid.jpg');
+        background-repeat: no-repeat;
+        color: #fff;
+        width: 45mm;
+        height: 15mm;
+        max-width: 36%;
+        font-size: medium;
+        padding-right: 50%;
+
+
+    }
+
+    .deep5 {
+        background-image: url('images/mob-from-above.jpg');
+        background-repeat: no-repeat;
+        color: #fff;
+        width: 45mm;
+        height: 15mm;
+        max-width: 36%;
+        font-size: medium;
+        padding-right: 50%;
+
+
+    }
+
+    .deep6 {
+        background-image: url('images/mob-pocket-borealis.jpg');
+        background-repeat: no-repeat;
+        color: #fff;
+        width: 45mm;
+        height: 15mm;
+        max-width: 36%;
+        font-size: medium;
+        padding-right: 50%;
+        padding-right: 10px;
+
+    }
+
+    .deep7 {
+        background-image: url('images/mob-curiosity.jpg');
+        background-repeat: no-repeat;
+        color: #fff;
+        width: 45mm;
+        height: 15mm;
+        max-width: 36%;
+        font-size: medium;
+        padding-right: 50%;
+        padding-right: 10px;
+
+    }
+
+    .deep8 {
+        background-image: url('images/mob-fisheye.jpg');
+        background-repeat: no-repeat;
+        color: #fff;
+        width: 45mm;
+        height: 15mm;
+        max-width: 36%;
+        font-size: medium;
+        padding-right: 30%;
+        padding-right: 10px;
+
+    }
+
+    .hamburger {
+        float: right;
+        margin-left: 10%;
+        padding-top: 17px;
+        max-height: 15px;
+
+    }
+
+    .box1 {
+        display: grid;
+        padding: 20px;
+    }
+
+    .box2 {
+        display: grid;
+        padding: 20px;
+    }
+
+    footer {
+        background-color: hsl(0, 0%, 0%);
+        max-width: 390px;
+        max-height: 70%;
+        width: 100%;
+    }
+
+    .ico1,
+    .ico2,
+    .ico3,
+    .ico4 {
+        padding: 4px;
+    }
+
+    .copy {
+        color: #fff;
+        padding-left: 20%;
+        padding-top: 20px;
+        min-width: 220px;
+
+    }
+
+    .icons {
+        padding-left: 45%;
+        display: flex;
+    }
+
+    .icons-and-copy {
+        padding-left: 15%;
+        padding-right: 4%;
+    }
+
+    .logo-and-nav,
+    .icons-and-copy {
+        padding-bottom: 40px;
+
+    }
+
+    .box-text {
+        padding-top: 30mm;
+        ;
+        padding-left: 50px;
+        padding-bottom: 20px;
+        padding-right: 40mm;
+
+    }
+
+    .creations {
+        padding-left: 45%;
+    }
+} 
+
+/*  @media (max-width:360px){
+        /* for desktop */
