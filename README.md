@@ -1,3 +1,3 @@
 # loopside
 loopside website
-https://dreamy-wisp-dade84.netlify.app
+https://serene-halva-0dfc6f.netlify.app
